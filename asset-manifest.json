@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/conv-app-mobile-first/static/css/main.a2e6830e.css",
+    "main.js": "/conv-app-mobile-first/static/js/main.c3ab86bb.js",
+    "index.html": "/conv-app-mobile-first/index.html",
+    "main.a2e6830e.css.map": "/conv-app-mobile-first/static/css/main.a2e6830e.css.map",
+    "main.c3ab86bb.js.map": "/conv-app-mobile-first/static/js/main.c3ab86bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2e6830e.css",
+    "static/js/main.c3ab86bb.js"
+  ]
+}
