@@ -71,7 +71,7 @@ export const topicList = [
       'Would you like to go skiing?',
       'Do you prefer to travel alone or with other peeple?',
       'What countries would you most like to visit?',
-      'Have you ever hitchhiked?',
+      'Have you ever hitch-hiked?',
     ],
   },
   {
@@ -101,7 +101,7 @@ export const topicList = [
     questions: [
       'How much money do you usually spend per day?',
       "Do you sometimes buy things you don't need?",
-      'When did you open your fiirst bank account?',
+      'When did you open your first bank account?',
       'How long would it take you to spend 1 million Dollars?',
       'Have you ever been in debt?',
       'Are you good at seving money?',
@@ -178,7 +178,7 @@ export const topicList = [
       'Are you good at taking exams?',
       'Were you a good student?',
       'Are school uniforms a good idea?',
-      "What do you think children should learn at school that they don't learn?",
+      "What do you think children should learn at school that they don't usually learn?",
     ],
   },
 ]
