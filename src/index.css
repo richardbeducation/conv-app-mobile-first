@@ -8,13 +8,13 @@ body {
 
 .navbar {
   background: black;
-  padding: 20px;
+  /* padding: 1rem; */
   color: #fff;
 }
 .navbar nav {
   display: flex;
   align-items: center;
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: 0 auto;
 }
 .navbar h1 {
@@ -54,7 +54,7 @@ header {
   margin: 0 auto;
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
   padding: 0 3rem;
 }
 
