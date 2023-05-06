@@ -8,13 +8,13 @@ body {
 
 .navbar {
   background: black;
-  /* padding: 1rem; */
+  padding: 1rem;
   color: #fff;
 }
 .navbar nav {
   display: flex;
   align-items: center;
-  /* max-width: 800px; */
+  max-width: 800px;
   margin: 0 auto;
 }
 .navbar h1 {
