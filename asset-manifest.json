@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/conv-app-mobile-first/static/css/main.c93265cc.css",
-    "main.js": "/conv-app-mobile-first/static/js/main.c3ab86bb.js",
+    "main.css": "/conv-app-mobile-first/static/css/main.0c74bd3b.css",
+    "main.js": "/conv-app-mobile-first/static/js/main.7d05917c.js",
     "index.html": "/conv-app-mobile-first/index.html",
-    "main.c93265cc.css.map": "/conv-app-mobile-first/static/css/main.c93265cc.css.map",
-    "main.c3ab86bb.js.map": "/conv-app-mobile-first/static/js/main.c3ab86bb.js.map"
+    "main.0c74bd3b.css.map": "/conv-app-mobile-first/static/css/main.0c74bd3b.css.map",
+    "main.7d05917c.js.map": "/conv-app-mobile-first/static/js/main.7d05917c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c93265cc.css",
-    "static/js/main.c3ab86bb.js"
+    "static/css/main.0c74bd3b.css",
+    "static/js/main.7d05917c.js"
   ]
 }
