@@ -3,16 +3,18 @@ import { TopicsContext } from './contexts/TopicsContext'
 
 export const topicList = [
   {
-    id: 1,
     topic: 'Hobbies',
     questions: [
       "What's your hobby?",
       'Do you have a lot of free time?',
       'What hobby would you like to try?',
+      'Q4',
+      'Q5',
+      'Q6',
+      'Q7',
     ],
   },
   {
-    id: 2,
     topic: 'Sport',
     questions: [
       'What sports do you like?',
@@ -21,7 +23,6 @@ export const topicList = [
     ],
   },
   {
-    id: 3,
     topic: 'Family',
     questions: [
       'Do you have a big family?',
@@ -29,9 +30,8 @@ export const topicList = [
       "What's the ideal number of children to have?",
     ],
   },
-  { id: 4, topic: 'Work', questions: ['Q1', 'Q1', 'Q3'] },
+  { topic: 'Work', questions: ['Q1', 'Q1', 'Q3'] },
   {
-    id: 5,
     topic: 'Food and drink',
     questions: [
       'Do you eat out often?',
@@ -51,13 +51,12 @@ export const topicList = [
       'Do you have any food allergies?',
     ],
   },
-  { id: 6, topic: 'Travel', questions: ['Q1', 'Q2', 'Q3'] },
-  { id: 7, topic: 'The future', questions: ['Q1', 'Q2', 'Q3'] },
-  { id: 8, topic: 'Movies', questions: ['Q1', 'Q2', 'Q3'] },
-  { id: 9, topic: 'Money', questions: ['Q1', 'Q2', 'Q3'] },
-  { id: 10, topic: 'Childhood', questions: ['Q1', 'Q2', 'Q3'] },
+  { topic: 'Travel', questions: ['Q1', 'Q2', 'Q3'] },
+  { topic: 'The future', questions: ['Q1', 'Q2', 'Q3'] },
+  { topic: 'Movies', questions: ['Q1', 'Q2', 'Q3'] },
+  { topic: 'Money', questions: ['Q1', 'Q2', 'Q3'] },
+  { topic: 'Childhood', questions: ['Q1', 'Q2', 'Q3'] },
   {
-    id: 11,
     topic: 'Have you ever?',
     questions: [
       'Have you ever slept in a tent?',
@@ -83,8 +82,8 @@ export const topicList = [
       'Have you ever experienced deja vu?',
     ],
   },
-  { id: 12, topic: 'Pets', questions: ['Q1', 'Q2', 'Q3'] },
-  { id: 13, topic: 'Education', questions: ['Q1', 'Q2', 'Q3'] },
+  { topic: 'Pets', questions: ['Q1', 'Q2', 'Q3'] },
+  { topic: 'Education', questions: ['Q1', 'Q2', 'Q3'] },
 ]
 
 function App() {
@@ -194,21 +193,14 @@ function Questions() {
 }
 
 function Random() {
-  const {
-    setScreen,
-    nextQ,
-    currQ,
-    questions,
-
-    randomNumber,
-  } = useContext(TopicsContext)
+  const { setScreen, nextQ, currQ, randomNumber } = useContext(TopicsContext)
 
   return (
     <div>
       <div className='q-box' onClick={nextQ}>
         <h2>{topicList[randomNumber].topic}</h2>
         <p>{topicList[randomNumber].questions[currQ]}</p>
-        {currQ >= questions.length && (
+        {currQ >= topicList[randomNumber].questions.length && (
           <button
             className='topics-button'
             onClick={() => {
